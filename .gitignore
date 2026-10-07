@@ -1,0 +1,23 @@
+# 1. Python & Environments
+__pycache__/
+*.pyc
+*.pyo
+env/
+venv/
+.env
+
+# 2. Jupyter Notebooks
+.ipynb_checkpoints/
+
+# 3. Slurm Cluster Logs
+logs/
+*.out
+*.err
+
+# 4. Large Data Files (Crucial)
+*.npy
+*.npz
+
+# 5. OS Clutter
+.DS_Store
+Thumbs.db
