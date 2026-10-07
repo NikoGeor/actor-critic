@@ -1,0 +1,9 @@
+jax
+jaxlib
+flax
+optax
+numpy
+pymdptoolbox
+tqdm
+jupyter
+matplotlib
