@@ -5,9 +5,9 @@
 
 This repository contains the official JAX/Flax implementation for the paper **[Scaling Effects and Uncertainty Quantification in Neural Actor-Critic Algorithms](https://arxiv.org/abs/2601.17954)**. 
 
-## Training Dynamics & Results
+## Training Dynamics & Main Results
 
-The algorithm demonstrates rapid convergence toward the optimal Q-function. Below is the expected discounted future reward across 30 independent runs for varying network scaling parameters ($\beta$):
+Below is the expected discounted future reward across 30 independent runs for varying network scaling parameter (β):
 
 ![Expected Rewards](bias_metrics.png)
 
