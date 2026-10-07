@@ -4,7 +4,7 @@ import jax.numpy as jnp
 import optax
 from flax.training import train_state
 from functools import partial
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
 # Import the network architectures from the adjacent networks.py file
 from .networks import ActorNetwork, CriticNetwork
